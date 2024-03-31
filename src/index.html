@@ -1,44 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../src/output.css">
     <title>Document</title>
-    
+
 </head>
+
 <body class="font-Roboto">
-<main>
-    <!-- Login-instagram-usuario -->
-<div class="min-h-screen flex items-center justify-center w-ful">
-	<div class="bg-white shadow-md rounded-lg px-8 py-6 w-4/5">
-		<h1 class="text-2xl font-bold text-center mb-4 dark:text-gray-600">Instagram</h1>
-		<form action="#">
-			<div class="mb-4">
-				<label for="email" class="block text-sm font-medium text-gray-700">Correo electrónico</label>
-				<input type="email" id="email" class="shadow-sm rounded-md w-full px-3 py-2 border border-gray-300 focus--indigo-border" placeholder="Teléfono, Usuario o Correo electrónico" required>
-			</div>
-			<div class="mb-4">
-				<label for="password" class="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">Contraseña</label>
-				<input type="password" id="password" class="shadow-sm rounded-md w-full px-3 py-2 border border-gray-300 focus--indigo-border" placeholder="Introduce tu contraseña" required>
-                <button type="submit" class="w-full flex justify-center py-2 px-4 border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-lightBlue-700 mt-4">Login</button>
-			</div>
-            
-                <!-- Otras opciones de inicio de sesión -->
-			<div class="flex items-center justify-between mb-4">
-				<div class="flex items-center">
-					<input type="checkbox" id="remember" class="h-4 w-4 rounded border-gray-300 text-indigo-600 focus:ring-indigo-500 focus:outline-none" checked>
-					<label for="remember" class="ml-2 block text-sm text-gray-700 dark:text-gray-300">Remember me</label>
-				</div>
-				<a href="#"
-					class="text-xs text-indigo-500 hover:text-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">Create
-					Account</a>
-			</div>
-			
-		</form>
-	</div>
-</div>
-   </main>
-   <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <main>
+        <!-- Login-instagram-usuario -->
+        <div class="min-h-screen flex items-center justify-center w-full">
+            <div class="bg-white shadow-md rounded-lg px-8 py-6 w-1/3">
+                <h1 class="text-2xl font-bold text-center mb-4 dark:text-gray-600">Instagram</h1>
+                <form action="#">
+                    <div class="mb-4">
+                        <label for="email" class="block text-sm font-medium text-gray-700">Correo electrónico</label>
+                        <input type="email" id="email"
+                            class="shadow-sm rounded-md w-full px-3 py-2 border text-sm border-gray-300 focus--indigo-border"
+                            placeholder="Teléfono, usuario o correo electrónico" required>
+                    </div>
+                    <div class="mb-4">
+                        <label for="password"
+                            class="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">Contraseña</label>
+                        <input type="password" id="password"
+                            class="shadow-sm rounded-md w-full px-3 py-2 text-sm border border-gray-300 focus--indigo-border"
+                            placeholder="Introduce tu contraseña" required>
+                        <button type="submit"
+                            class="w-full flex justify-center py-2 px-4 border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-lightBlue-700 mt-4"><a href="/">Inicia sesión</a></button>
+                    </div>
+                    <!-- Contenedor divisor -->
+                    <div class="relative text-center mb-4">
+                        <div class="absolute top-[-14px] left-1/2 transform -translate-x-1/2 bg-white px-2 z-10 ">
+                            o
+                        </div>
+                        <div class="absolute w-full top-1/2 border-t border-black"></div>
+                    </div>
+                    <!-- Otras opciones de inicio de sesión -->
+                    <div class="facebook text-center mt-7 justify-center items-center ">
+                        <box-icon name='facebook-square' type='logo' color='#3b5998'></box-icon>            
+                        <a href="#" class="text-md">Inicia sesión con Facebook</a>
+                        <p>¿Has olvidado tu contraseña?</p>
+                    </div>
+                    <div class="flex items-center justify-between mb-4">
+                        <div class="flex items-center">
+                            <input type="checkbox" id="remember"
+                                class="h-4 w-4 rounded border-gray-300 text-indigo-600 focus:ring-indigo-500 focus:outline-none"
+                                checked>
+                            <label for="remember" class="ml-2 block text-sm text-gray-700 dark:text-gray-300">Remember
+                                me</label>
+                        </div>
+                        <a href="#"
+                            class="text-xs text-indigo-500 hover:text-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">Create
+                            Account</a>
+                    </div>
+
+                </form>
+            </div>
+        </div>
+    </main>
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
 </body>
+
 </html>
