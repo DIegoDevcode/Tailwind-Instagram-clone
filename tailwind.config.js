@@ -11,7 +11,7 @@ module.exports = {
         'Roboto': ['Roboto', 'sans-serif',],
       },
       backgroundColor:{
-        'lightBlue-700': '#0369a1'
+        'lightBlue-700': '#4BB4F8'
       }
     },
   },

@@ -8,30 +8,36 @@
     
 </head>
 <body class="font-Roboto">
-   <main>
-    <section class="login">
-        <div class="div-border border-gray-300 border-8 border-x-8 h-48 border-co">
-            <div class="login--title">
-                <h1 class="text-center pt-2">Instagram</h1>
-            </div>
-            <div class="login--body flex  justify-center items-center pt-2 flex-col">
-                <form action="" class="flex flex-col">
-                    <input type="text" placeholder="Teléfono, Usuario o Correo electrónico" class="text-center w-72 border-violet-500 border">
-                    <input type="text" placeholder="Contraseña" class="text-center w-72 border-violet-500 border">
-                    <button type="button" class="bg-blue-400 text-white"> Entrar</button>
-                </form>
-                <div class="divisor">o</div>
-            </div>
-            <div class="flex justify-center items-center">
-                <box-icon name='facebook-square' type='logo' color='#3b5998' ></box-icon>            
-                <a href="/">Inicia sesión con Facebook</a>
-            </div>
-            <div class="flex flex-col justify-center items-center text-center">
-                <p>¿Has olvidado tu Contraseña?</p>
-                <p>¿No tienes una cuenta? <a href="">Regístrate</a></p>       
-            </div>
-        </div>
-    </section>
+<main>
+    <!-- Login-instagram-usuario -->
+<div class="min-h-screen flex items-center justify-center w-ful">
+	<div class="bg-white shadow-md rounded-lg px-8 py-6 w-4/5">
+		<h1 class="text-2xl font-bold text-center mb-4 dark:text-gray-600">Instagram</h1>
+		<form action="#">
+			<div class="mb-4">
+				<label for="email" class="block text-sm font-medium text-gray-700">Correo electrónico</label>
+				<input type="email" id="email" class="shadow-sm rounded-md w-full px-3 py-2 border border-gray-300 focus--indigo-border" placeholder="Teléfono, Usuario o Correo electrónico" required>
+			</div>
+			<div class="mb-4">
+				<label for="password" class="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">Contraseña</label>
+				<input type="password" id="password" class="shadow-sm rounded-md w-full px-3 py-2 border border-gray-300 focus--indigo-border" placeholder="Introduce tu contraseña" required>
+                <button type="submit" class="w-full flex justify-center py-2 px-4 border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-lightBlue-700 mt-4">Login</button>
+			</div>
+            
+                <!-- Otras opciones de inicio de sesión -->
+			<div class="flex items-center justify-between mb-4">
+				<div class="flex items-center">
+					<input type="checkbox" id="remember" class="h-4 w-4 rounded border-gray-300 text-indigo-600 focus:ring-indigo-500 focus:outline-none" checked>
+					<label for="remember" class="ml-2 block text-sm text-gray-700 dark:text-gray-300">Remember me</label>
+				</div>
+				<a href="#"
+					class="text-xs text-indigo-500 hover:text-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">Create
+					Account</a>
+			</div>
+			
+		</form>
+	</div>
+</div>
    </main>
    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
 </body>
