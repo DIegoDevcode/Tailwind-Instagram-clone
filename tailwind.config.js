@@ -11,7 +11,8 @@ module.exports = {
         'Roboto': ['Roboto', 'sans-serif',],
       },
       backgroundColor:{
-        'lightBlue-700': '#0095F6'
+        'lightBlue-700': '#0095F6',
+      'Facebook-backgroundColor': '#0898F6'
       },
       textColor:{
         'lightBlue-700': '#0095F6',
