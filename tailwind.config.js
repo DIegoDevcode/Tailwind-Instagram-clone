@@ -11,10 +11,10 @@ module.exports = {
         'Roboto': ['Roboto', 'sans-serif',],
       },
       backgroundColor:{
-        'lightBlue-700': '#4BB4F8'
+        'lightBlue-700': '#0095F6'
       },
       textColor:{
-        'lightBlue-700': '#4BB4F8',
+        'lightBlue-700': '#0095F6',
         'graytext': '#737384',
       },
       screens:{
